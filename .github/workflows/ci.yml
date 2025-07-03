@@ -45,3 +45,6 @@ jobs:
       - name: Check for formatting issue
         run: npm run format:check
 
+      - name: Catch linting issues
+        run: npm run lint
+
