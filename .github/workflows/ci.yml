@@ -46,5 +46,5 @@ jobs:
         run: npm run format:check
 
       - name: Catch linting issues
-        run: npm run lint
+        run: npm run lint -- --max-warnings=0
 
